@@ -17,10 +17,10 @@ function generateSquare(){
           testo: rnd
         }
 
-        if (rnd >= 5) {
-          data.class = "yellow";
-        }else{
+        if (rnd > 5) {
           data.class = "green";
+        }else{
+          data.class = "yellow";
         }
 
         var template = $("#template").html();
